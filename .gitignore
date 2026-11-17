@@ -1,0 +1,13 @@
+# Nunca incluir secretos ni entorno de despliegue
+.env
+.env.*
+*.key
+*.pem
+id_rsa*
+*.sqlite
+__pycache__/
+out/
+cache/
+broadcast/
+node_modules/
+.DS_Store
